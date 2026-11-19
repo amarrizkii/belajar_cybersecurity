@@ -1,0 +1,69 @@
+NETWORK SECURITY ANALYZER v2.1
+=======================================================
+Waktu pemeriksaan: 2026-11-17 02:24:46.872508
+Target port scan: 127.0.0.1
+
+PORT SCAN LOCALHOST
+-------------------------------------------------------
+Port 21: CLOSED
+Port 22: CLOSED
+Port 23: CLOSED
+Port 25: CLOSED
+Port 53: CLOSED
+Port 80: OPEN
+Port 110: CLOSED
+Port 135: OPEN
+Port 139: CLOSED
+Port 143: CLOSED
+Port 443: OPEN
+Port 445: OPEN
+Port 3306: OPEN
+Port 3389: CLOSED
+Port 5432: CLOSED
+Port 5900: CLOSED
+Port 6379: CLOSED
+Port 8080: CLOSED
+Port 8443: CLOSED
+Port 27017: CLOSED
+
+LISTENING SERVICES
+-------------------------------------------------------
+PID: 9136 | Proses: httpd.exe | Port: 80 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan web; pastikan hanya layanan yang diperlukan aktif
+PID: 1392 | Proses: svchost.exe | Port: 135 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 4 | Proses: System | Port: 139 | IP: 192.168.1.7 | Risk: REVIEW | Keterangan: NetBIOS; periksa apakah layanan ini diperlukan
+PID: 9136 | Proses: httpd.exe | Port: 443 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan web; pastikan hanya layanan yang diperlukan aktif
+PID: 4 | Proses: System | Port: 445 | IP: 0.0.0.0, :: | Risk: HIGH | Keterangan: SMB perlu diperiksa akses jaringan dan aturan firewall
+PID: 4624 | Proses: LMS.exe | Port: 623 | IP: 0.0.0.0, :: | Risk: REVIEW | Keterangan: Periksa layanan manajemen perangkat Intel
+PID: 2072 | Proses: mysqld.exe | Port: 3306 | IP: 0.0.0.0, :: | Risk: HIGH | Keterangan: MySQL perlu dibatasi jika tidak digunakan dari jaringan
+PID: 9208 | Proses: svchost.exe | Port: 5040 | IP: 0.0.0.0 | Risk: REVIEW | Keterangan: Periksa identitas layanan dan kebutuhan akses jaringan
+PID: 1320 | Proses: svchost.exe | Port: 7680 | IP: 0.0.0.0, :: | Risk: REVIEW | Keterangan: Periksa identitas layanan dan kebutuhan akses jaringan
+PID: 4624 | Proses: LMS.exe | Port: 16992 | IP: 0.0.0.0, :: | Risk: REVIEW | Keterangan: Periksa layanan manajemen perangkat Intel
+PID: 4736 | Proses: AppleMobileDeviceService.exe | Port: 27015 | IP: 127.0.0.1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+PID: 1064 | Proses: lsass.exe | Port: 49664 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 1004 | Proses: wininit.exe | Port: 49665 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 2056 | Proses: svchost.exe | Port: 49666 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 2928 | Proses: svchost.exe | Port: 49667 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 3360 | Proses: spoolsv.exe | Port: 49668 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 5892 | Proses: jhi_service.exe | Port: 49669 | IP: ::1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+PID: 1016 | Proses: services.exe | Port: 49685 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 15720 | Proses: Code.exe | Port: 56193 | IP: 127.0.0.1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+PID: 2788 | Proses: SocketHeciServer.exe | Port: 57613 | IP: 127.0.0.1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+PID: 17280 | Proses: Code.exe | Port: 64761 | IP: 127.0.0.1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+
+WINDOWS FIREWALL
+ON - Semua profil yang terbaca aktif
+
+SMB CONFIGURATION
+SMB1: False
+SMB2: True
+
+NETWORK PROFILES
+Wi-Fi: 0
+
+DIGITAL SIGNATURE
+Valid
+
+CATATAN:
+Label risiko adalah pemeriksaan awal, bukan bukti kompromi.
+Port yang listening belum tentu dapat diakses dari internet.
+Periksa firewall, kebutuhan layanan, dan autentikasi.

@@ -1,0 +1,96 @@
+NETWORK SECURITY ANALYZER v2.2
+=================================================================
+Waktu pemeriksaan: 2026-11-19T15:17:26
+Target port scan: 127.0.0.1
+
+PORT SCAN LOCALHOST
+-----------------------------------------------------------------
+Port 21: CLOSED
+Port 22: CLOSED
+Port 23: CLOSED
+Port 25: CLOSED
+Port 53: CLOSED
+Port 80: OPEN
+Port 110: CLOSED
+Port 135: OPEN
+Port 139: CLOSED
+Port 143: CLOSED
+Port 443: OPEN
+Port 445: OPEN
+Port 3306: OPEN
+Port 3389: CLOSED
+Port 5432: CLOSED
+Port 5900: CLOSED
+Port 6379: CLOSED
+Port 8080: CLOSED
+Port 8443: CLOSED
+Port 27017: CLOSED
+
+LISTENING SERVICES
+-----------------------------------------------------------------
+PID: 12008 | Proses: httpd.exe | Port: 80 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan web; pastikan hanya layanan yang diperlukan aktif
+PID: 1372 | Proses: svchost.exe | Port: 135 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 4 | Proses: System | Port: 139 | IP: 192.168.1.7 | Risk: REVIEW | Keterangan: NetBIOS; periksa apakah layanan ini diperlukan
+PID: 12008 | Proses: httpd.exe | Port: 443 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan web; pastikan hanya layanan yang diperlukan aktif
+PID: 4 | Proses: System | Port: 445 | IP: 0.0.0.0, :: | Risk: HIGH | Keterangan: SMB perlu diperiksa akses jaringan dan aturan firewall
+PID: 4948 | Proses: LMS.exe | Port: 623 | IP: 0.0.0.0, :: | Risk: REVIEW | Keterangan: Periksa layanan manajemen perangkat Intel
+PID: 3636 | Proses: mysqld.exe | Port: 3306 | IP: 127.0.0.1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+PID: 8976 | Proses: svchost.exe | Port: 5040 | IP: 0.0.0.0 | Risk: REVIEW | Keterangan: Periksa identitas layanan dan kebutuhan akses jaringan
+PID: 4948 | Proses: LMS.exe | Port: 16992 | IP: 0.0.0.0, :: | Risk: REVIEW | Keterangan: Periksa layanan manajemen perangkat Intel
+PID: 5236 | Proses: AppleMobileDeviceService.exe | Port: 27015 | IP: 127.0.0.1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+PID: 13336 | Proses: OneDrive.Sync.Service.exe | Port: 42050 | IP: ::1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+PID: 1048 | Proses: lsass.exe | Port: 49664 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 1000 | Proses: wininit.exe | Port: 49665 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 2056 | Proses: svchost.exe | Port: 49666 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 2976 | Proses: svchost.exe | Port: 49667 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 4256 | Proses: spoolsv.exe | Port: 49668 | IP: 0.0.0.0, :: | Risk: INFO | Keterangan: Layanan RPC Windows; bukan otomatis kerentanan
+PID: 6044 | Proses: jhi_service.exe | Port: 49669 | IP: ::1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+PID: 1012 | Proses: services.exe | Port: 49703 | IP: 0.0.0.0, :: | Risk: REVIEW | Keterangan: Periksa identitas layanan dan kebutuhan akses jaringan
+PID: 13660 | Proses: SocketHeciServer.exe | Port: 55038 | IP: 127.0.0.1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+PID: 296 | Proses: Code.exe | Port: 55113 | IP: 127.0.0.1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+PID: 14316 | Proses: Code.exe | Port: 61431 | IP: 127.0.0.1 | Risk: LOW | Keterangan: Hanya menerima koneksi dari komputer sendiri
+
+ACTIVE CONNECTIONS
+-----------------------------------------------------------------
+PID: 4948 | Proses: LMS.exe | Lokal: 127.0.0.1:49670 | Tujuan: 127.0.0.1:49671 | Tipe tujuan: LOOPBACK | Status: ESTABLISHED | Risk: LOW | Keterangan: Koneksi hanya pada komputer sendiri
+PID: 4948 | Proses: LMS.exe | Lokal: 127.0.0.1:49671 | Tujuan: 127.0.0.1:49670 | Tipe tujuan: LOOPBACK | Status: ESTABLISHED | Risk: LOW | Keterangan: Koneksi hanya pada komputer sendiri
+PID: 0 | Proses: System Idle Process | Lokal: 127.0.0.1:62324 | Tujuan: 127.0.0.1:135 | Tipe tujuan: LOOPBACK | Status: TIME_WAIT | Risk: LOW | Keterangan: Koneksi hanya pada komputer sendiri
+PID: 0 | Proses: System Idle Process | Lokal: 127.0.0.1:62322 | Tujuan: 127.0.0.1:80 | Tipe tujuan: LOOPBACK | Status: TIME_WAIT | Risk: LOW | Keterangan: Koneksi hanya pada komputer sendiri
+PID: 0 | Proses: System Idle Process | Lokal: 127.0.0.1:62327 | Tujuan: 127.0.0.1:443 | Tipe tujuan: LOOPBACK | Status: TIME_WAIT | Risk: LOW | Keterangan: Koneksi hanya pada komputer sendiri
+PID: 13444 | Proses: Code.exe | Lokal: 192.168.1.7:55754 | Tujuan: 13.107.5.93:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 13444 | Proses: Code.exe | Lokal: 192.168.1.7:57655 | Tujuan: 4.150.223.113:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 13444 | Proses: Code.exe | Lokal: 192.168.1.7:61407 | Tujuan: 4.150.223.113:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 13444 | Proses: Code.exe | Lokal: 192.168.1.7:62288 | Tujuan: 52.140.63.241:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 0 | Proses: System Idle Process | Lokal: 192.168.1.7:55223 | Tujuan: 13.89.179.12:443 | Tipe tujuan: PUBLIC | Status: TIME_WAIT | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 0 | Proses: System Idle Process | Lokal: 192.168.1.7:61409 | Tujuan: 13.107.5.93:443 | Tipe tujuan: PUBLIC | Status: TIME_WAIT | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 0 | Proses: System Idle Process | Lokal: 2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62797 | Tujuan: 2404:6800:4003:c02::65:443 | Tipe tujuan: PUBLIC | Status: TIME_WAIT | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 0 | Proses: System Idle Process | Lokal: 2404:c0:d401:76f6:4c7c:aab3:8415:c0df:56078 | Tujuan: 2606:4700:4408::ac40:9bd1:443 | Tipe tujuan: PUBLIC | Status: TIME_WAIT | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 0 | Proses: System Idle Process | Lokal: 192.168.1.7:61408 | Tujuan: 13.107.5.93:443 | Tipe tujuan: PUBLIC | Status: TIME_WAIT | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 12804 | Proses: chrome.exe | Lokal: 2404:c0:d401:76f6:4c7c:aab3:8415:c0df:63526 | Tujuan: 2404:6800:4003:c22::5b:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 12804 | Proses: chrome.exe | Lokal: 2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62306 | Tujuan: 2606:4700:440b::6812:2715:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 12804 | Proses: chrome.exe | Lokal: 2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62268 | Tujuan: 2606:4700:4408::ac40:9bd1:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 12804 | Proses: chrome.exe | Lokal: 2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62340 | Tujuan: 2606:4700:440b::6812:2715:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 12804 | Proses: chrome.exe | Lokal: 2404:c0:d401:76f6:4c7c:aab3:8415:c0df:49841 | Tujuan: 2606:4700:440b::6812:2715:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 12804 | Proses: chrome.exe | Lokal: 2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62425 | Tujuan: 2606:4700:4408::ac40:9bd1:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 12804 | Proses: chrome.exe | Lokal: 2404:c0:d401:76f6:4c7c:aab3:8415:c0df:52753 | Tujuan: 2404:6800:4003:c02::bc:5228 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 13656 | Proses: codex.exe | Lokal: 2404:c0:d401:76f6:4c7c:aab3:8415:c0df:55224 | Tujuan: 2606:4700:4408::ac40:9bd1:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+PID: 5160 | Proses: svchost.exe | Lokal: 2404:c0:d401:76f6:4c7c:aab3:8415:c0df:49721 | Tujuan: 2603:1040:a06:6::1:443 | Tipe tujuan: PUBLIC | Status: ESTABLISHED | Risk: REVIEW | Keterangan: Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+
+WINDOWS FIREWALL
+ON - Semua profil yang terbaca aktif
+
+SMB CONFIGURATION
+SMB1: False
+SMB2: True
+
+NETWORK PROFILES
+Wi-Fi: 0
+
+DIGITAL SIGNATURE
+Valid
+
+CATATAN:
+Label risiko adalah pemeriksaan awal, bukan bukti kompromi.
+Koneksi ke IP publik tidak otomatis berarti berbahaya.
+Port yang listening belum tentu dapat diakses dari internet.
+Periksa identitas proses, tujuan koneksi, firewall, dan kebutuhan layanan.

@@ -1,0 +1,27 @@
+﻿pid,process,local_address,remote_address,remote_type,state,risk,reason
+13444,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:55085,2001:4488:f931::7662:5fc0:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+13444,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:53324,2603:1061:10::16:443,PUBLIC,FIN_WAIT2,INFO,Koneksi berada dalam proses penutupan
+13444,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:57764,2603:1061:10::16:443,PUBLIC,FIN_WAIT2,INFO,Koneksi berada dalam proses penutupan
+13444,Code.exe,192.168.1.7:56281,20.184.175.14:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+13444,Code.exe,192.168.1.7:51832,52.140.63.241:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+13444,Code.exe,192.168.1.7:64133,13.107.5.93:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+13444,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:53601,2603:1061:10::16:443,PUBLIC,FIN_WAIT2,INFO,Koneksi berada dalam proses penutupan
+13444,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:61734,2603:1061:10::16:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+13444,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:49265,2603:1061:10::16:443,PUBLIC,FIN_WAIT2,INFO,Koneksi berada dalam proses penutupan
+4988,MpDefenderCoreService.exe,192.168.1.7:58837,20.184.175.19:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+0,Unknown,127.0.0.1:58875,127.0.0.1:443,LOOPBACK,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup; bukan bukti ancaman
+0,Unknown,127.0.0.1:58870,127.0.0.1:80,LOOPBACK,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup; bukan bukti ancaman
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:57612,2606:4700:4408::ac40:9bd1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup; bukan bukti ancaman
+0,Unknown,192.168.1.7:51833,13.107.5.93:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup; bukan bukti ancaman
+0,Unknown,127.0.0.1:58872,127.0.0.1:135,LOOPBACK,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup; bukan bukti ancaman
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:58628,2606:4700:4408::ac40:9bd1:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62483,2606:4700:4403::ac40:94eb:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:55110,2404:6800:4003:c0f::bc:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:65188,2606:4700:4403::ac40:94eb:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:57668,2606:4700:4403::ac40:94eb:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:63631,2606:4700:4408::ac40:9bd1:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+7648,svchost.exe,192.168.1.7:58838,4.145.11.36:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+7648,svchost.exe,192.168.1.7:58839,4.145.11.36:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+5160,svchost.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:49318,2603:1040:a06:6::1:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; periksa aplikasi dan tujuan jika tidak dikenal
+4948,LMS.exe,127.0.0.1:49292,127.0.0.1:49291,LOOPBACK,ESTABLISHED,LOW,Koneksi hanya pada komputer sendiri
+4948,LMS.exe,127.0.0.1:49291,127.0.0.1:49292,LOOPBACK,ESTABLISHED,LOW,Koneksi hanya pada komputer sendiri

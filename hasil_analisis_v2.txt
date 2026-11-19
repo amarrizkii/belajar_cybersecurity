@@ -1,0 +1,146 @@
+PYTHON NETWORK SECURITY ANALYZER V2.0
+============================================================
+Waktu pemeriksaan: 17-11-2026 02:19:33
+Target: 127.0.0.1
+Windows Firewall: ON
+Digital Signature: Valid
+
+[PORT SCAN]
+Port 21 | CLOSED | FTP
+Port 22 | CLOSED | SSH
+Port 23 | CLOSED | Telnet
+Port 25 | CLOSED | SMTP
+Port 53 | CLOSED | DNS
+Port 80 | OPEN | HTTP
+Port 110 | CLOSED | POP3
+Port 135 | OPEN | RPC
+Port 139 | CLOSED | NetBIOS
+Port 143 | CLOSED | IMAP
+Port 443 | OPEN | HTTPS
+Port 445 | OPEN | SMB
+Port 3306 | OPEN | MySQL
+Port 3389 | CLOSED | RDP
+Port 5432 | CLOSED | PostgreSQL
+Port 5900 | CLOSED | VNC
+Port 6379 | CLOSED | Redis
+Port 8080 | CLOSED | HTTP Alternative
+Port 8443 | CLOSED | HTTPS Alternative
+Port 27017 | CLOSED | MongoDB
+
+[LISTENING CONNECTIONS]
+0.0.0.0:445 | PID: 4 | Process: System | Risk: HIGH
+Recommendation: Batasi akses melalui firewall dan hindari paparan layanan sensitif ke jaringan yang tidak dipercaya.
+
+192.168.1.7:139 | PID: 4 | Process: System | Risk: HIGH
+Recommendation: Batasi akses melalui firewall dan hindari paparan layanan sensitif ke jaringan yang tidak dipercaya.
+
+0.0.0.0:49665 | PID: 1004 | Process: wininit.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+:::49665 | PID: 1004 | Process: wininit.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+:::16992 | PID: 4624 | Process: LMS.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+127.0.0.1:56193 | PID: 15720 | Process: Code.exe | Risk: LOW
+Recommendation: Koneksi lokal. Pastikan layanan memang diperlukan.
+
+:::135 | PID: 1392 | Process: svchost.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+:::7680 | PID: 1320 | Process: svchost.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+0.0.0.0:49666 | PID: 2056 | Process: svchost.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+127.0.0.1:64761 | PID: 17280 | Process: Code.exe | Risk: LOW
+Recommendation: Koneksi lokal. Pastikan layanan memang diperlukan.
+
+:::49664 | PID: 1064 | Process: lsass.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+0.0.0.0:49667 | PID: 2928 | Process: svchost.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+:::3306 | PID: 2072 | Process: mysqld.exe | Risk: HIGH
+Recommendation: Batasi akses melalui firewall dan hindari paparan layanan sensitif ke jaringan yang tidak dipercaya.
+
+:::623 | PID: 4624 | Process: LMS.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+:::443 | PID: 9136 | Process: httpd.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+:::80 | PID: 9136 | Process: httpd.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+0.0.0.0:3306 | PID: 2072 | Process: mysqld.exe | Risk: HIGH
+Recommendation: Batasi akses melalui firewall dan hindari paparan layanan sensitif ke jaringan yang tidak dipercaya.
+
+0.0.0.0:5040 | PID: 9208 | Process: svchost.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+:::49666 | PID: 2056 | Process: svchost.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+0.0.0.0:16992 | PID: 4624 | Process: LMS.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+0.0.0.0:7680 | PID: 1320 | Process: svchost.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+0.0.0.0:135 | PID: 1392 | Process: svchost.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+0.0.0.0:443 | PID: 9136 | Process: httpd.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+:::49668 | PID: 3360 | Process: spoolsv.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+0.0.0.0:49664 | PID: 1064 | Process: lsass.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+:::445 | PID: 4 | Process: System | Risk: HIGH
+Recommendation: Batasi akses melalui firewall dan hindari paparan layanan sensitif ke jaringan yang tidak dipercaya.
+
+127.0.0.1:57613 | PID: 2788 | Process: SocketHeciServer.exe | Risk: LOW
+Recommendation: Koneksi lokal. Pastikan layanan memang diperlukan.
+
+:::49685 | PID: 1016 | Process: services.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+127.0.0.1:27015 | PID: 4736 | Process: AppleMobileDeviceService.exe | Risk: LOW
+Recommendation: Koneksi lokal. Pastikan layanan memang diperlukan.
+
+0.0.0.0:80 | PID: 9136 | Process: httpd.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+0.0.0.0:49685 | PID: 1016 | Process: services.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+::1:49669 | PID: 5892 | Process: jhi_service.exe | Risk: LOW
+Recommendation: Koneksi lokal. Pastikan layanan memang diperlukan.
+
+0.0.0.0:623 | PID: 4624 | Process: LMS.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+0.0.0.0:49668 | PID: 3360 | Process: spoolsv.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+:::49667 | PID: 2928 | Process: svchost.exe | Risk: MEDIUM
+Recommendation: Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.
+
+
+[SECURITY SUMMARY]
+open_ports: 5
+high: 5
+medium: 25
+low: 5
+
+CATATAN:
+Kategori risiko merupakan penilaian awal berdasarkan alamat binding dan nomor port.
+Port terbuka tidak otomatis berarti rentan.
+Pemeriksaan ini bukan pengganti audit keamanan menyeluruh.

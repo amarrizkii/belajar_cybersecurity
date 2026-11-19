@@ -1,0 +1,334 @@
+NETWORK SECURITY ANALYZER
+=======================================================
+Waktu pemeriksaan: 17-11-2026 02:12:26
+
+[HASIL PEMERIKSAAN PORT]
+Port 21 | FTP | CLOSED
+Port 22 | SSH | CLOSED
+Port 25 | SMTP | CLOSED
+Port 53 | DNS | CLOSED
+Port 80 | HTTP | OPEN
+Port 110 | POP3 | CLOSED
+Port 143 | IMAP | CLOSED
+Port 443 | HTTPS | OPEN
+Port 3306 | MySQL | OPEN
+Port 5432 | PostgreSQL | CLOSED
+Port 8080 | HTTP Alternative | CLOSED
+Port 8443 | HTTPS Alternative | CLOSED
+
+[DAFTAR PROSES]
+PID 0 | System Idle Process
+PID 4 | System
+PID 172 | Registry
+PID 336 | WINWORD.EXE
+PID 644 | svchost.exe
+PID 660 | smss.exe
+PID 776 | winlogon.exe
+PID 780 | svchost.exe
+PID 912 | powershell.exe
+PID 924 | csrss.exe
+PID 1004 | wininit.exe
+PID 1012 | csrss.exe
+PID 1016 | services.exe
+PID 1064 | lsass.exe
+PID 1088 | svchost.exe
+PID 1200 | svchost.exe
+PID 1232 | fontdrvhost.exe
+PID 1236 | fontdrvhost.exe
+PID 1248 | WUDFHost.exe
+PID 1288 | chrome.exe
+PID 1316 | ShellExperienceHost.exe
+PID 1320 | svchost.exe
+PID 1392 | svchost.exe
+PID 1448 | svchost.exe
+PID 1524 | dwm.exe
+PID 1612 | WUDFHost.exe
+PID 1756 | svchost.exe
+PID 1768 | svchost.exe
+PID 1776 | svchost.exe
+PID 1812 | svchost.exe
+PID 1824 | svchost.exe
+PID 1840 | svchost.exe
+PID 1872 | Code.exe
+PID 1928 | chrome.exe
+PID 2056 | svchost.exe
+PID 2072 | mysqld.exe
+PID 2088 | svchost.exe
+PID 2096 | svchost.exe
+PID 2220 | svchost.exe
+PID 2244 | IntelCpHDCPSvc.exe
+PID 2268 | svchost.exe
+PID 2304 | svchost.exe
+PID 2320 | svchost.exe
+PID 2328 | svchost.exe
+PID 2360 | LITSSvc.exe
+PID 2488 | IntelCpHeciSvc.exe
+PID 2520 | svchost.exe
+PID 2544 | svchost.exe
+PID 2644 | msedgewebview2.exe
+PID 2772 | svchost.exe
+PID 2788 | SocketHeciServer.exe
+PID 2888 | svchost.exe
+PID 2916 | svchost.exe
+PID 2928 | svchost.exe
+PID 2976 | chrome.exe
+PID 3016 | svchost.exe
+PID 3032 | svchost.exe
+PID 3052 | svchost.exe
+PID 3112 | MemCompression
+PID 3196 | svchost.exe
+PID 3240 | svchost.exe
+PID 3268 | svchost.exe
+PID 3272 | igfxCUIService.exe
+PID 3288 | backgroundTaskHost.exe
+PID 3360 | spoolsv.exe
+PID 3372 | ETDService.exe
+PID 3420 | svchost.exe
+PID 3452 | svchost.exe
+PID 3476 | svchost.exe
+PID 3552 | svchost.exe
+PID 3580 | svchost.exe
+PID 3704 | WTabletServiceISD.exe
+PID 3720 | svchost.exe
+PID 3736 | conhost.exe
+PID 3832 | svchost.exe
+PID 3844 | svchost.exe
+PID 3908 | chrome.exe
+PID 3912 | svchost.exe
+PID 3960 | backgroundTaskHost.exe
+PID 3964 | svchost.exe
+PID 4180 | svchost.exe
+PID 4248 | svchost.exe
+PID 4256 | CxAudioSvc.exe
+PID 4264 | CxAudMsg64.exe
+PID 4280 | svchost.exe
+PID 4300 | OfficeClickToRun.exe
+PID 4372 | chrome.exe
+PID 4432 | powershell.exe
+PID 4440 | explorer.exe
+PID 4448 | IntelAudioService.exe
+PID 4476 | svchost.exe
+PID 4480 | OneApp.IGCC.WinService.exe
+PID 4516 | svchost.exe
+PID 4524 | DefenderSessionHelper.exe
+PID 4528 | svchost.exe
+PID 4568 | LenovoVantageService.exe
+PID 4624 | LMS.exe
+PID 4664 | svchost.exe
+PID 4700 | MpDefenderCoreService.exe
+PID 4708 | chrome.exe
+PID 4736 | AppleMobileDeviceService.exe
+PID 4744 | svchost.exe
+PID 4752 | GameInputRedistService.exe
+PID 4772 | svchost.exe
+PID 4784 | svchost.exe
+PID 4796 | ibmpmsvc.exe
+PID 4836 | MsMpEng.exe
+PID 4872 | chrome.exe
+PID 4876 | GameInputRedistService.exe
+PID 4900 | igfxEM.exe
+PID 4908 | esif_uf.exe
+PID 4924 | powershell.exe
+PID 4960 | EasyResume.exe
+PID 5052 | svchost.exe
+PID 5072 | svchost.exe
+PID 5116 | LITSSvc.exe
+PID 5164 | WMIRegistrationService.exe
+PID 5308 | chrome.exe
+PID 5376 | powershell.exe
+PID 5420 | gamingservicesnet.exe
+PID 5428 | gamingservices.exe
+PID 5740 | powershell.exe
+PID 5892 | jhi_service.exe
+PID 6024 | svchost.exe
+PID 6112 | msedgewebview2.exe
+PID 6160 | svchost.exe
+PID 6256 | wlanext.exe
+PID 6316 | RuntimeBroker.exe
+PID 6360 | svchost.exe
+PID 6404 | WUDFHost.exe
+PID 6620 | conhost.exe
+PID 6672 | svchost.exe
+PID 6720 | ETDCtrl.exe
+PID 6744 | ShellHost.exe
+PID 6764 | WmiApSrv.exe
+PID 6836 | cmd.exe
+PID 6868 | AggregatorHost.exe
+PID 7060 | svchost.exe
+PID 7220 | svchost.exe
+PID 7252 | sihost.exe
+PID 7280 | UserOOBEBroker.exe
+PID 7380 | svchost.exe
+PID 7396 | svchost.exe
+PID 7428 | svchost.exe
+PID 7456 | RuntimeBroker.exe
+PID 7484 | WTabletServiceISD.exe
+PID 7492 | msedgewebview2.exe
+PID 7580 | svchost.exe
+PID 7748 | powershell.exe
+PID 7804 | svchost.exe
+PID 7876 | chrome.exe
+PID 7880 | svchost.exe
+PID 7900 | svchost.exe
+PID 7912 | msedgewebview2.exe
+PID 7972 | chrome.exe
+PID 7984 | Code.exe
+PID 8012 | xampp-control.exe
+PID 8064 | taskhostw.exe
+PID 8252 | msedgewebview2.exe
+PID 8472 | uv.exe
+PID 8516 | PowerMgr.exe
+PID 8600 | WUDFHost.exe
+PID 8636 | python.exe
+PID 8644 | chrome.exe
+PID 8808 | svchost.exe
+PID 8948 | svchost.exe
+PID 9012 | AppActions.exe
+PID 9108 | WUDFHost.exe
+PID 9136 | httpd.exe
+PID 9208 | svchost.exe
+PID 9544 | svchost.exe
+PID 9552 | svchost.exe
+PID 9608 | svchost.exe
+PID 9664 | StartMenuExperienceHost.exe
+PID 9788 | SearchHost.exe
+PID 9852 | SystemSettings.exe
+PID 9864 | CrossDeviceResume.exe
+PID 9884 | svchost.exe
+PID 9912 | Code.exe
+PID 10096 | chrome.exe
+PID 10100 | LenovoVantage-(GenericMessagingAddin).exe
+PID 10136 | chrome.exe
+PID 10148 | svchost.exe
+PID 10324 | ai.exe
+PID 10360 | RuntimeBroker.exe
+PID 10380 | svchost.exe
+PID 10600 | chrome.exe
+PID 10624 | conhost.exe
+PID 10640 | svchost.exe
+PID 10984 | msedgewebview2.exe
+PID 10992 | chrome.exe
+PID 11024 | svchost.exe
+PID 11028 | OpenConsole.exe
+PID 11036 | chrome.exe
+PID 11048 | ctfmon.exe
+PID 11232 | msedgewebview2.exe
+PID 11296 | RuntimeBroker.exe
+PID 11328 | TabTip.exe
+PID 11412 | chrome.exe
+PID 11600 | LockApp.exe
+PID 11712 | msedgewebview2.exe
+PID 11904 | msedgewebview2.exe
+PID 11912 | msedgewebview2.exe
+PID 12028 | SearchIndexer.exe
+PID 12040 | msedgewebview2.exe
+PID 12096 | svchost.exe
+PID 12124 | msedgewebview2.exe
+PID 12404 | pet.exe
+PID 12608 | chrome.exe
+PID 12704 | Code.exe
+PID 12808 | OpenConsole.exe
+PID 12904 | svchost.exe
+PID 12956 | chrome.exe
+PID 12972 | svchost.exe
+PID 12996 | codex.exe
+PID 13248 | DefenderAiPlatformHost.exe
+PID 13268 | Lively.exe
+PID 13304 | svchost.exe
+PID 13424 | conhost.exe
+PID 13456 | powershell.exe
+PID 13508 | Lively.Watchdog.exe
+PID 13544 | mpv.exe
+PID 13632 | TextInputHost.exe
+PID 13772 | httpd.exe
+PID 13788 | WhatsApp.Root.exe
+PID 13956 | msedgewebview2.exe
+PID 14084 | aesm_service.exe
+PID 14240 | NisSrv.exe
+PID 14256 | chrome.exe
+PID 14276 | svchost.exe
+PID 14288 | Locator.exe
+PID 14444 | LenovoVantage-(VantageCoreAddin).exe
+PID 14472 | chrome.exe
+PID 14560 | chrome.exe
+PID 14604 | Code.exe
+PID 14784 | powershell.exe
+PID 14852 | chrome.exe
+PID 14940 | svchost.exe
+PID 14976 | chrome.exe
+PID 15236 | RuntimeBroker.exe
+PID 15324 | svchost.exe
+PID 15400 | audiodg.exe
+PID 15568 | OpenConsole.exe
+PID 15720 | Code.exe
+PID 15780 | Code.exe
+PID 15828 | svchost.exe
+PID 15876 | Code.exe
+PID 15884 | ai.exe
+PID 16000 | RuntimeBroker.exe
+PID 16032 | svchost.exe
+PID 16132 | svchost.exe
+PID 16196 | copilot-runtime.exe
+PID 16200 | RuntimeBroker.exe
+PID 16248 | ApplicationFrameHost.exe
+PID 16304 | OpenConsole.exe
+PID 16336 | chrome.exe
+PID 16340 | svchost.exe
+PID 16704 | OpenConsole.exe
+PID 16796 | OpenConsole.exe
+PID 16944 | OpenConsole.exe
+PID 16996 | Code.exe
+PID 17208 | conhost.exe
+PID 17280 | Code.exe
+PID 17320 | powershell.exe
+PID 17352 | svchost.exe
+PID 17696 | OpenConsole.exe
+PID 17756 | DataExchangeHost.exe
+PID 17840 | OpenConsole.exe
+PID 18004 | python.exe
+PID 18096 | Code.exe
+PID 18260 | python.exe
+
+[KONEKSI LISTENING]
+:::49666 | PID: 2056 | Proses: svchost.exe
+0.0.0.0:49667 | PID: 2928 | Proses: svchost.exe
+:::443 | PID: 9136 | Proses: httpd.exe
+0.0.0.0:623 | PID: 4624 | Proses: LMS.exe
+0.0.0.0:49668 | PID: 3360 | Proses: spoolsv.exe
+0.0.0.0:49664 | PID: 1064 | Proses: lsass.exe
+:::80 | PID: 9136 | Proses: httpd.exe
+0.0.0.0:443 | PID: 9136 | Proses: httpd.exe
+:::135 | PID: 1392 | Proses: svchost.exe
+0.0.0.0:7680 | PID: 1320 | Proses: svchost.exe
+:::3306 | PID: 2072 | Proses: mysqld.exe
+0.0.0.0:445 | PID: 4 | Proses: System
+127.0.0.1:27015 | PID: 4736 | Proses: AppleMobileDeviceService.exe
+127.0.0.1:57613 | PID: 2788 | Proses: SocketHeciServer.exe
+0.0.0.0:80 | PID: 9136 | Proses: httpd.exe
+192.168.1.7:139 | PID: 4 | Proses: System
+:::49667 | PID: 2928 | Proses: svchost.exe
+127.0.0.1:64761 | PID: 17280 | Proses: Code.exe
+0.0.0.0:16992 | PID: 4624 | Proses: LMS.exe
+127.0.0.1:56193 | PID: 15720 | Proses: Code.exe
+0.0.0.0:5040 | PID: 9208 | Proses: svchost.exe
+0.0.0.0:49666 | PID: 2056 | Proses: svchost.exe
+0.0.0.0:49685 | PID: 1016 | Proses: services.exe
+:::7680 | PID: 1320 | Proses: svchost.exe
+0.0.0.0:49665 | PID: 1004 | Proses: wininit.exe
+:::49685 | PID: 1016 | Proses: services.exe
+:::623 | PID: 4624 | Proses: LMS.exe
+:::445 | PID: 4 | Proses: System
+:::49664 | PID: 1064 | Proses: lsass.exe
+0.0.0.0:135 | PID: 1392 | Proses: svchost.exe
+:::49665 | PID: 1004 | Proses: wininit.exe
+0.0.0.0:3306 | PID: 2072 | Proses: mysqld.exe
+:::16992 | PID: 4624 | Proses: LMS.exe
+:::49668 | PID: 3360 | Proses: spoolsv.exe
+::1:49669 | PID: 5892 | Proses: jhi_service.exe
+
+[TANDA TANGAN DIGITAL]
+Valid
+
+CATATAN:
+Port OPEN tidak otomatis berarti rentan.
+Hasil ini merupakan pemeriksaan dasar pada komputer lokal.

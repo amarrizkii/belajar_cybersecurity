@@ -1,0 +1,23 @@
+﻿pid,process,port,addresses,risk,reason
+12008,httpd.exe,80,"0.0.0.0, ::",INFO,Layanan web; pastikan layanan yang aktif memang diperlukan
+1372,svchost.exe,135,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+4,System,139,192.168.1.7,REVIEW,NetBIOS; periksa apakah layanan ini diperlukan
+12008,httpd.exe,443,"0.0.0.0, ::",INFO,Layanan web; pastikan layanan yang aktif memang diperlukan
+4,System,445,"0.0.0.0, ::",HIGH,SMB; pastikan akses masuk dibatasi oleh Windows Firewall
+4948,LMS.exe,623,"0.0.0.0, ::",REVIEW,Periksa layanan manajemen perangkat
+3636,mysqld.exe,3306,127.0.0.1,LOW,Hanya menerima koneksi dari komputer sendiri
+8976,svchost.exe,5040,0.0.0.0,REVIEW,Periksa identitas layanan dan kebutuhan akses jaringan
+1208,svchost.exe,7680,"0.0.0.0, ::",REVIEW,Periksa identitas layanan dan kebutuhan akses jaringan
+4948,LMS.exe,16992,"0.0.0.0, ::",REVIEW,Periksa layanan manajemen perangkat
+5236,AppleMobileDeviceService.exe,27015,127.0.0.1,LOW,Hanya menerima koneksi dari komputer sendiri
+13336,OneDrive.Sync.Service.exe,42050,::1,LOW,Hanya menerima koneksi dari komputer sendiri
+1048,lsass.exe,49664,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+1000,wininit.exe,49665,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+2056,svchost.exe,49666,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+2976,svchost.exe,49667,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+4256,spoolsv.exe,49668,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+6044,jhi_service.exe,49669,::1,LOW,Hanya menerima koneksi dari komputer sendiri
+1012,services.exe,49703,"0.0.0.0, ::",REVIEW,Periksa identitas layanan dan kebutuhan akses jaringan
+13660,SocketHeciServer.exe,55038,127.0.0.1,LOW,Hanya menerima koneksi dari komputer sendiri
+296,Code.exe,55113,127.0.0.1,LOW,Hanya menerima koneksi dari komputer sendiri
+14316,Code.exe,61431,127.0.0.1,LOW,Hanya menerima koneksi dari komputer sendiri

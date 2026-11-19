@@ -1,0 +1,22 @@
+﻿pid,process,port,addresses,risk,reason
+9136,httpd.exe,80,"0.0.0.0, ::",INFO,Layanan web; pastikan hanya layanan yang diperlukan aktif
+1392,svchost.exe,135,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+4,System,139,192.168.1.7,REVIEW,NetBIOS; periksa apakah layanan ini diperlukan
+9136,httpd.exe,443,"0.0.0.0, ::",INFO,Layanan web; pastikan hanya layanan yang diperlukan aktif
+4,System,445,"0.0.0.0, ::",HIGH,SMB perlu diperiksa akses jaringan dan aturan firewall
+4624,LMS.exe,623,"0.0.0.0, ::",REVIEW,Periksa layanan manajemen perangkat Intel
+2072,mysqld.exe,3306,"0.0.0.0, ::",HIGH,MySQL perlu dibatasi jika tidak digunakan dari jaringan
+9208,svchost.exe,5040,0.0.0.0,REVIEW,Periksa identitas layanan dan kebutuhan akses jaringan
+1320,svchost.exe,7680,"0.0.0.0, ::",REVIEW,Periksa identitas layanan dan kebutuhan akses jaringan
+4624,LMS.exe,16992,"0.0.0.0, ::",REVIEW,Periksa layanan manajemen perangkat Intel
+4736,AppleMobileDeviceService.exe,27015,127.0.0.1,LOW,Hanya menerima koneksi dari komputer sendiri
+1064,lsass.exe,49664,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+1004,wininit.exe,49665,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+2056,svchost.exe,49666,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+2928,svchost.exe,49667,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+3360,spoolsv.exe,49668,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+5892,jhi_service.exe,49669,::1,LOW,Hanya menerima koneksi dari komputer sendiri
+1016,services.exe,49685,"0.0.0.0, ::",INFO,Layanan RPC Windows; bukan otomatis kerentanan
+15720,Code.exe,56193,127.0.0.1,LOW,Hanya menerima koneksi dari komputer sendiri
+2788,SocketHeciServer.exe,57613,127.0.0.1,LOW,Hanya menerima koneksi dari komputer sendiri
+17280,Code.exe,64761,127.0.0.1,LOW,Hanya menerima koneksi dari komputer sendiri

@@ -1,0 +1,56 @@
+﻿type,ip,port,status,pid,process,risk,recommendation,firewall,signature
+PORT SCAN,127.0.0.1,21,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,22,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,23,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,25,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,53,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,80,OPEN,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,110,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,135,OPEN,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,139,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,143,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,443,OPEN,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,445,OPEN,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,3306,OPEN,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,3389,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,5432,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,5900,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,6379,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,8080,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,8443,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+PORT SCAN,127.0.0.1,27017,CLOSED,,,INFORMATIONAL,Periksa kebutuhan layanan.,ON,Valid
+LISTENING,0.0.0.0,445,LISTENING,4,System,HIGH,Batasi akses melalui firewall dan hindari paparan layanan sensitif ke jaringan yang tidak dipercaya.,ON,Valid
+LISTENING,192.168.1.7,139,LISTENING,4,System,HIGH,Batasi akses melalui firewall dan hindari paparan layanan sensitif ke jaringan yang tidak dipercaya.,ON,Valid
+LISTENING,0.0.0.0,49665,LISTENING,1004,wininit.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,::,49665,LISTENING,1004,wininit.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,::,16992,LISTENING,4624,LMS.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,127.0.0.1,56193,LISTENING,15720,Code.exe,LOW,Koneksi lokal. Pastikan layanan memang diperlukan.,ON,Valid
+LISTENING,::,135,LISTENING,1392,svchost.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,::,7680,LISTENING,1320,svchost.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,0.0.0.0,49666,LISTENING,2056,svchost.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,127.0.0.1,64761,LISTENING,17280,Code.exe,LOW,Koneksi lokal. Pastikan layanan memang diperlukan.,ON,Valid
+LISTENING,::,49664,LISTENING,1064,lsass.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,0.0.0.0,49667,LISTENING,2928,svchost.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,::,3306,LISTENING,2072,mysqld.exe,HIGH,Batasi akses melalui firewall dan hindari paparan layanan sensitif ke jaringan yang tidak dipercaya.,ON,Valid
+LISTENING,::,623,LISTENING,4624,LMS.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,::,443,LISTENING,9136,httpd.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,::,80,LISTENING,9136,httpd.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,0.0.0.0,3306,LISTENING,2072,mysqld.exe,HIGH,Batasi akses melalui firewall dan hindari paparan layanan sensitif ke jaringan yang tidak dipercaya.,ON,Valid
+LISTENING,0.0.0.0,5040,LISTENING,9208,svchost.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,::,49666,LISTENING,2056,svchost.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,0.0.0.0,16992,LISTENING,4624,LMS.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,0.0.0.0,7680,LISTENING,1320,svchost.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,0.0.0.0,135,LISTENING,1392,svchost.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,0.0.0.0,443,LISTENING,9136,httpd.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,::,49668,LISTENING,3360,spoolsv.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,0.0.0.0,49664,LISTENING,1064,lsass.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,::,445,LISTENING,4,System,HIGH,Batasi akses melalui firewall dan hindari paparan layanan sensitif ke jaringan yang tidak dipercaya.,ON,Valid
+LISTENING,127.0.0.1,57613,LISTENING,2788,SocketHeciServer.exe,LOW,Koneksi lokal. Pastikan layanan memang diperlukan.,ON,Valid
+LISTENING,::,49685,LISTENING,1016,services.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,127.0.0.1,27015,LISTENING,4736,AppleMobileDeviceService.exe,LOW,Koneksi lokal. Pastikan layanan memang diperlukan.,ON,Valid
+LISTENING,0.0.0.0,80,LISTENING,9136,httpd.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,0.0.0.0,49685,LISTENING,1016,services.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,::1,49669,LISTENING,5892,jhi_service.exe,LOW,Koneksi lokal. Pastikan layanan memang diperlukan.,ON,Valid
+LISTENING,0.0.0.0,623,LISTENING,4624,LMS.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,0.0.0.0,49668,LISTENING,3360,spoolsv.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid
+LISTENING,::,49667,LISTENING,2928,svchost.exe,MEDIUM,Periksa kebutuhan akses jaringan dan batasi akses menggunakan Windows Firewall.,ON,Valid

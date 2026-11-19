@@ -1,0 +1,66 @@
+﻿pid,process,local_address,remote_address,remote_type,state,risk,reason
+7764,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:58377,2603:1061:14:165::1:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,192.168.1.7:60345,52.140.63.241:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+16708,Code.exe,192.168.1.7:51775,140.82.113.22:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+16708,Code.exe,192.168.1.7:51895,4.150.223.96:443,PUBLIC,SYN_SENT,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,192.168.1.7:60364,13.107.5.93:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:51268,2603:1061:14:165::1:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:52650,2603:1061:14:160::1:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+16708,Code.exe,192.168.1.7:51885,4.150.223.96:443,PUBLIC,SYN_SENT,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,192.168.1.7:59707,20.42.65.92:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,192.168.1.7:63479,52.175.140.176:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+16708,Code.exe,192.168.1.7:51879,4.150.223.96:443,PUBLIC,SYN_SENT,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:55072,2606:50c0:8002::154:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,192.168.1.7:54028,20.42.65.92:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+16708,Code.exe,192.168.1.7:51878,4.150.223.96:443,PUBLIC,SYN_SENT,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:58980,2603:1061:14:160::1:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+16708,Code.exe,192.168.1.7:51887,4.150.223.96:443,PUBLIC,SYN_SENT,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+16708,Code.exe,192.168.1.7:51892,4.150.223.96:443,PUBLIC,SYN_SENT,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+16708,Code.exe,192.168.1.7:51888,4.150.223.96:443,PUBLIC,SYN_SENT,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,192.168.1.7:52907,140.82.114.21:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,192.168.1.7:51619,52.140.63.241:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62846,2603:1061:10::16:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,192.168.1.7:57206,140.82.114.21:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,192.168.1.7:62007,13.107.5.93:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:51645,2603:1061:14:160::1:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+7764,Code.exe,192.168.1.7:50286,140.82.114.21:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:51630,2606:4700:4408::ac40:9bd1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:51681,13.107.5.93:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:57210,13.107.5.93:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:51686,2606:4700:4408::ac40:9bd1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,127.0.0.1:51622,127.0.0.1:52651,LOOPBACK,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,127.0.0.1:51903,127.0.0.1:135,LOOPBACK,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,127.0.0.1:51901,127.0.0.1:80,LOOPBACK,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:50157,4.150.223.98:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,127.0.0.1:51906,127.0.0.1:443,LOOPBACK,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:51634,52.140.63.241:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,127.0.0.1:52651,127.0.0.1:51623,LOOPBACK,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:51689,104.18.37.228:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,127.0.0.1:54928,127.0.0.1:52651,LOOPBACK,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:51648,104.18.37.228:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:60369,2603:1061:14:160::1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:51690,13.107.5.93:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:51684,2606:4700:4408::ac40:9bd1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:51677,4.150.223.96:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,127.0.0.1:52651,127.0.0.1:54929,LOOPBACK,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:53070,2603:1061:14:160::1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:51631,2606:4700:4408::ac40:9bd1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:51757,104.18.37.228:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:59708,20.42.65.92:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:51632,2606:4700:4408::ac40:9bd1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:57211,13.107.5.93:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:51621,4.150.223.96:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:52652,13.107.5.93:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:56137,2603:1061:14:160::1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:51629,2606:4700:4408::ac40:9bd1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:51685,2606:4700:4408::ac40:9bd1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,192.168.1.7:61319,13.107.5.93:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+0,Unknown,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:51683,2606:4700:4408::ac40:9bd1:443,PUBLIC,TIME_WAIT,INFO,Koneksi sedang/baru saja ditutup
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:49208,2606:4700:4408::ac40:9bd1:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62197,2606:4700:4403::ac40:94eb:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:58331,2404:6800:4003:c02::bc:5228,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:64784,2606:4700:4403::ac40:94eb:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:50995,2606:4700:440b::6812:2715:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+5160,svchost.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:49318,2603:1040:a06:6::1:443,PUBLIC,ESTABLISHED,INFO,Koneksi ke IP publik; bukan otomatis berbahaya
+4948,LMS.exe,127.0.0.1:49291,127.0.0.1:49292,LOOPBACK,ESTABLISHED,LOW,Koneksi hanya pada komputer sendiri
+4948,LMS.exe,127.0.0.1:49292,127.0.0.1:49291,LOOPBACK,ESTABLISHED,LOW,Koneksi hanya pada komputer sendiri

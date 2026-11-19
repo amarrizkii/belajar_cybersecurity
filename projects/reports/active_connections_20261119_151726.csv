@@ -1,0 +1,24 @@
+﻿pid,process,local_address,remote_address,remote_type,state,risk,reason
+4948,LMS.exe,127.0.0.1:49670,127.0.0.1:49671,LOOPBACK,ESTABLISHED,LOW,Koneksi hanya pada komputer sendiri
+4948,LMS.exe,127.0.0.1:49671,127.0.0.1:49670,LOOPBACK,ESTABLISHED,LOW,Koneksi hanya pada komputer sendiri
+0,System Idle Process,127.0.0.1:62324,127.0.0.1:135,LOOPBACK,TIME_WAIT,LOW,Koneksi hanya pada komputer sendiri
+0,System Idle Process,127.0.0.1:62322,127.0.0.1:80,LOOPBACK,TIME_WAIT,LOW,Koneksi hanya pada komputer sendiri
+0,System Idle Process,127.0.0.1:62327,127.0.0.1:443,LOOPBACK,TIME_WAIT,LOW,Koneksi hanya pada komputer sendiri
+13444,Code.exe,192.168.1.7:55754,13.107.5.93:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+13444,Code.exe,192.168.1.7:57655,4.150.223.113:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+13444,Code.exe,192.168.1.7:61407,4.150.223.113:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+13444,Code.exe,192.168.1.7:62288,52.140.63.241:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+0,System Idle Process,192.168.1.7:55223,13.89.179.12:443,PUBLIC,TIME_WAIT,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+0,System Idle Process,192.168.1.7:61409,13.107.5.93:443,PUBLIC,TIME_WAIT,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+0,System Idle Process,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62797,2404:6800:4003:c02::65:443,PUBLIC,TIME_WAIT,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+0,System Idle Process,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:56078,2606:4700:4408::ac40:9bd1:443,PUBLIC,TIME_WAIT,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+0,System Idle Process,192.168.1.7:61408,13.107.5.93:443,PUBLIC,TIME_WAIT,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:63526,2404:6800:4003:c22::5b:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62306,2606:4700:440b::6812:2715:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62268,2606:4700:4408::ac40:9bd1:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62340,2606:4700:440b::6812:2715:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:49841,2606:4700:440b::6812:2715:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:62425,2606:4700:4408::ac40:9bd1:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+12804,chrome.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:52753,2404:6800:4003:c02::bc:5228,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+13656,codex.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:55224,2606:4700:4408::ac40:9bd1:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
+5160,svchost.exe,2404:c0:d401:76f6:4c7c:aab3:8415:c0df:49721,2603:1040:a06:6::1:443,PUBLIC,ESTABLISHED,REVIEW,Alamat tujuan publik; periksa apakah koneksi dikenal dan diperlukan
